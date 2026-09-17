@@ -62,3 +62,9 @@ h1 {
 .tabla-trayectoria tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+section h2 {
+    font-family: Arial;
+    font-size: 20px;
+    color: black;
+}
