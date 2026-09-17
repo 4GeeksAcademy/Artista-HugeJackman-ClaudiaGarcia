@@ -1,0 +1,64 @@
+h1 {
+    color: yellow;
+    font-size: 30px;
+    font-family: Arial;
+    -webkit-text-stroke: 1px black;
+}
+
+.submenu {
+    margin-bottom: 20px;
+}
+
+.submenu a {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.imagen {
+    display: block;
+    max-width: 300px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.texto {
+    font-size: 14px;
+    color: black;
+    max-width: 400px;
+}
+
+.letra_texto {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.tabla-trayectoria {
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-trayectoria th,
+.tabla-trayectoria td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.tabla-trayectoria th {
+    background-color: #333;
+    color: white;
+}
+
+.tabla-trayectoria tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
