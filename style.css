@@ -64,7 +64,11 @@ h1 {
 }
 
 section h2 {
-    font-family: Arial;
+    font-family: Arial, sans-serif !important;
     font-size: 20px;
     color: black;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
 }
