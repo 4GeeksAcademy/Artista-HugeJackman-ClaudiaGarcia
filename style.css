@@ -43,7 +43,7 @@ h1 {
 .tabla-trayectoria {
     font-family: Arial;
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
 }
 
 .tabla-trayectoria th,
